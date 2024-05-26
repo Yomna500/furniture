@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    
+</head>
+<body>
+
+     
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+            <a href="index.html"class="header-title">furniture</a>
+            
+                <div class="header-link">
+                    <ul id="links">
+                        <li><a class="header-link1" href="login.html">sign in</a></li>
+                        <li><a href="register.html">sign up</a></li>
+                    </ul>
+                    <ul id="userinfo">
+                        <li><a href="#" id="userdata"></a></li>
+                        <li class="cartin">
+                          <i class="fas fa-shopping-cart "></i>
+                          <span class="quantity" ></span>
+
+                          <div class="carts-products">
+                              <div class="incart"></div>
+                              <a href="cart.html">View All Products</a>
+                          </div>
+                    </li>
+                    <li><a href="#" id="logout">Log Out</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+     
+    </header>
+    <div class="search">
+        <div>
+            <form>
+                <select  class="form-control inputValue" id="ddlViewBy">
+                  <option value="1">Search By Name</option>
+                  <option value="2" >Search By Category</option>
+                </select>
+              </form>
+        </div>
+        <div>
+            <input type="text" class="form-control inputValue" id="exampleFormControlInput1" placeholder="Search">
+        </div>
+    </div>
+
+
+
+    
+        <main>
+    <section class="home">
+      <div class="products">
+        
+      </div>
+   
+    </section>
+
+</main>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/user.js"></script>
+</body>
+</html>
